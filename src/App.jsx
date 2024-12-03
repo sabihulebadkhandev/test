@@ -1,24 +1,24 @@
 // eslint-disable-next-line no-unused-vars
-import React from 'react'
-import Home from './Components/Frontend/Home'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import { BrowserRouter,Route, Routes } from 'react-router-dom'
-import Signup from './Components/Frontend/Singup'
-import Signin from './Components/Frontend/Signin'
-import "../public/assets/style.scss"
-import Otp from './Components/Frontend/Otp'
-import Verification from './Components/Frontend/Verification'
-import Subscriptionplan from './Components/Frontend/Subscriptionplan'
-import Payment from './Components/Frontend/Payment'
-import Add_Stripe_card from './Components/Frontend/Add_Stripe_card'
-import Payment_confirm from './Components/Frontend/Payment_confirm'
-import Payment_successfull from './Components/Frontend/payment_successfull'
-import Login_inner from './Components/Frontend/login_inner'
-import Storypreview from './Components/Frontend/Storypreview'
-import Generated from './Components/Frontend/Generated'
+import React from 'react';
+import Home from './Components/Frontend/Home';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter,Route, Routes } from 'react-router-dom';
+import Signup from './Components/Frontend/Singup';
+import Signin from './Components/Frontend/signin.jsx';
+import "../public/assets/style.scss";
+import Otp from './Components/Frontend/Otp';
+import Verification from './Components/Frontend/Verification';
+import Subscriptionplan from './Components/Frontend/Subscriptionplan';
+import Payment from './Components/Frontend/Payment';
+import Add_Stripe_card from './Components/Frontend/Add_Stripe_card';
+import Payment_confirm from './Components/Frontend/Payment_confirm';
+import Payment_successfull from './Components/Frontend/payment_successfull';
+import Login_inner from './Components/Frontend/login_inner';
+import Storypreview from './Components/Frontend/Storypreview';
+import Generated from './Components/Frontend/Generated';
 import History from "./Components/Frontend/History";
-import User_Tips from './Components/Frontend/User_Tips'
-import Account from './Components/Frontend/Account'
+import User_Tips from './Components/Frontend/User_Tips';
+import Account from './Components/Frontend/Account';
 
 
 export default function App() {
